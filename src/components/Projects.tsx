@@ -7,12 +7,12 @@ const Projects = () => {
       title: "NGO Donations & Volunteer Management App",
       description: "Salesforce application to manage NGO donations, volunteers, and events. Built with custom objects, automated workflows, and comprehensive reporting for enhanced organizational efficiency.",
       technologies: ["Salesforce", "Apex", "Flow Builder", "Lightning Platform"],
-      github: "#", // Salesforce project - no GitHub link
+      github: "https://github.com/sruhithabathina21/NGO-Donor-Volunteer-Management",
       icon: Database,
       color: "text-primary",
       gradient: "from-primary/20 to-primary/5",
       features: ["Custom Objects & Fields", "Automated Workflows", "Dashboards & Reports", "Record Management"],
-      isSalesforce: true
+      isSalesforce: false
     },
     {
       title: "Portfolio Website",
