@@ -28,6 +28,10 @@ const Contact = () => {
           from_email: formData.email,
           message: formData.message,
           to_name: 'Sruhitha',
+          user_name: formData.name,
+          user_email: formData.email,
+          reply_to: formData.email,
+          subject: `New message from ${formData.name}`,
         },
         'hAx_06jtPBDRZRMbf' // Public Key
       );
