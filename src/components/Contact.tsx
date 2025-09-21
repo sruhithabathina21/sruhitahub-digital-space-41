@@ -287,34 +287,6 @@ const Contact = () => {
           </div>
         </div>
 
-        {/* Resume Download Section */}
-        <div id="resume" className="mt-16 text-center">
-          <div className="glass-card hover-glow max-w-2xl mx-auto">
-            <h3 className="text-2xl font-bold text-gradient mb-4">Download Resume</h3>
-            <p className="text-muted-foreground mb-6">
-              Get a comprehensive overview of my skills, experience, and achievements in a detailed resume format.
-            </p>
-            <Button
-              asChild
-              size="lg"
-              className="bg-gradient-to-r from-secondary to-accent hover:from-secondary/80 hover:to-accent/80 border-0 text-secondary-foreground font-semibold"
-            >
-              <a
-                href="/resume.pdf"
-                download="Sruhitha_Bathina_Resume.pdf"
-                onClick={() => {
-                  toast({
-                    title: "Resume downloaded!",
-                    description: "Your download should start automatically.",
-                  });
-                }}
-                className="flex items-center gap-2"
-              >
-                📄 Download Resume (PDF)
-              </a>
-            </Button>
-          </div>
-        </div>
       </div>
     </section>
   );
